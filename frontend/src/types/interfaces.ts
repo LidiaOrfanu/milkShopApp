@@ -5,11 +5,6 @@ export interface IMilkProdInfo {
     storage: number;
   }
 
-  export interface IMilkListResponse {
-    data: IMilkProdInfo[],
-    totalCount: number,
-}
-
 export const milkTypes = [
     "Cashew",
     "Pea",
